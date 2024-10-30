@@ -16,3 +16,7 @@ function App() {
 }
 
 export default App;
+
+// Разделить по компонентам
+// posts - post - post.jsx
+// Что за props

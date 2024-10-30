@@ -1,6 +1,6 @@
 import React from "react";
 import "./profile.css";
-
+import Posts from "./posts/post/Posts.jsx"
 function Profile() {
   return (
     <div className='profile'>
@@ -8,15 +8,7 @@ function Profile() {
         <img className="header__icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSyWVvHq0-FnrRlRcRAe5f7fCfXA8a1zju23qjFe7vONiAT8q3"/>
         <p>Elon Musk</p>
       </div>
-      <div className="posts">
-          <input type="text" name="text" placeholder="enter the post"/>
-          <button className="post__button">Add post</button>
-      </div>
-      <div className="comment">
-          <img className="comment___icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSyWVvHq0-FnrRlRcRAe5f7fCfXA8a1zju23qjFe7vONiAT8q3" alt="" />
-          <span className="sender__username">Elon Musk</span>
-          <p>Some Text</p>
-      </div>
+      <Posts/>
     </div>
   );
 }
